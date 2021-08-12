@@ -1,0 +1,211 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #262837;
+}
+
+html {
+  background-color: #262837;
+  scroll-behavior: smooth;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 562.5%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px auto 50px auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  /* color: #531d40; */
+  color: white;
+  padding-bottom: 10px;
+} 
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  line-height: 2;
+  color: white;
+}
+
+hr {
+  border: dotted white 8px;
+  border-bottom: none;
+  width: 2%;
+  margin: 100px auto;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #1f1d2c;
+  margin: 20px;
+  text-decoration: none;
+}
+
+/*---------- CLASS CONTAINER ----------*/
+.top-container {
+  background-color: #1f1d2c;
+  padding-top: 40px;
+  position: relative;
+  height: 500px;
+}
+
+.middle-container {
+  /* margin: 100px 0; */
+  background-color: #262837;
+  /* padding-top: 100px; */
+}
+
+.bottom-container {
+  background-color: #262837;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/*----- CLOUD -----*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: black;
+  padding-left: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+}
+
+.Graph-img {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+
+.Market-img {
+  float: right;
+  margin-left: 30px;
+  margin-top: -30px;
+  height: 250px;
+}
+
+.Market-h3 {
+  margin-top: 200px;
+}
+
+.balloon-image {
+    position: absolute;
+    left: calc(50% - 70.5px);
+    bottom: 250px;
+    animation-name: balloon-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balloon-animation {
+  0% {
+      bottom: 250;
+  }
+  50% {
+      bottom: 265px;
+  }
+  100% {
+      bottom: 250px;
+  }
+}
+
+.mountain {
+  margin-top: 15%;
+}
+
+.profile-img {
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 4px #ACACAC;
+}
+
+#NavItem1, #NavItem2, #NavItem3, #NavItem4 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 17px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 15;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0;
+}
+
+#Navigation {
+  position: fixed; 
+  background-color: #1f1d2c; 
+  width: 100%;
+  z-index: 1;
+}
+
+#Top-Heading {
+  padding-bottom: 10px;
+  font-size: 50px;
+  width: 50%;
+}
+
+#Top-Subtitle {
+  font-size: 20px;
+}
+
+#footer > div.row {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Poppins;
+    src: url("Poppins-Bold.ttf");
+}
+
+body {
+    /* cursor:none; */
+    background-color: #171717;
+}
+
+h1 {
+    cursor: default;
+    font-family: Poppins;
+    font-size: 150px;
+    display:inline-block;
+    margin:50px;
+    background: radial-gradient(circle at var(--x,-250px) var(--y,-250px), #171717 125px,#fff 125px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    width: 60%;
+}
+
+h2 {
+    cursor: default;
+    font-family: Poppins;
+    font-size: 50;
+    color: #777777;
+    position: relative;
+    margin-left:100px;
+    top: -150;
+}
+
+.cursor {
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#fff;
+    border-radius:50%;
+    top:-40px;
+    left:-40px;
+    z-index:-2;
+}
+
+div {
+    position: relative;
+    top: 15%;
+    left: 50%;
+}
